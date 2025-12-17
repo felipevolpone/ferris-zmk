@@ -146,15 +146,22 @@ combos:
   l: [DEF]
 - p: [21, 22]
   k: {t: C, h: '$$mdi:apple-keyboard-command$$'}
+  l: [DEF]
 - p: [22, 23]
   k: {t: V, h: '$$mdi:apple-keyboard-command$$'}
+  l: [DEF]
 - p: [15, 16]
   k: Sft+Alt+Gui+S
+  l: [DEF]
 - p: [6, 7]
   k: {t: /, s: '?'}
+  l: [DEF]
 - p: [7, 8]
   k: '&tmux_new_tab'
+  l: [DEF]
 - p: [16, 17]
   k: '&prev_tmux'
+  l: [DEF]
 - p: [17, 18]
   k: '&next_tmux'
+  l: [DEF]
