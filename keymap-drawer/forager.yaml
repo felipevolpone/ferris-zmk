@@ -84,7 +84,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-high$$
   - PAUSE
-  - $$mdi:volume-high$$
+  - $$mdi:volume-low$$
   - Gui+$$mdi:arrow-left-bold$$
   - RGUI
   - $$mdi:keyboard-tab$$
