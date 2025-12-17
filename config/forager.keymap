@@ -133,10 +133,10 @@
 
         nav {
             bindings = <
-  &kp GRAVE  &kp MINUS       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EXCLAMATION    &kp ASTERISK       &kp DOLLAR         &kp PERCENT    &kp SQT        &kp DOUBLE_QUOTES
-  &kp PIPE   &kp PLUS        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN        &kp LEFT           &kp DOWN           &kp UP         &kp RIGHT      &kp TILDE
-  &none      &kp UNDERSCORE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HASH           &kp COLON          &kp EQUAL          &kp AMPERSAND  &kp BACKSLASH  &kp CARET
-                                                   &trans                 &trans             &kp LA(BACKSPACE)  &kp DOUBLE_QUOTES
+  &kp GRAVE  &kp MINUS       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EXCLAMATION    &kp ASTERISK  &kp DOLLAR         &kp PERCENT    &kp SQT        &kp DOUBLE_QUOTES
+  &kp PIPE   &kp PLUS        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN        &kp LEFT      &kp DOWN           &kp UP         &kp RIGHT      &kp TILDE
+  &none      &kp UNDERSCORE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HASH           &kp COLON     &kp EQUAL          &kp AMPERSAND  &kp BACKSLASH  &kp CARET
+                                                   &trans                 &trans             &none         &kp LA(BACKSPACE)
             >;
         };
 
@@ -152,7 +152,7 @@
         numbers {
             bindings = <
   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5       &kp NUMBER_6  &kp N7  &kp N8  &kp N9  &kp N0
-  &trans        &trans        &trans        &trans        &trans       &trans        &trans  &trans  &trans  &trans
+  &kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp N0       &trans        &trans  &trans  &trans  &trans
   &trans        &kp ASTERISK  &kp PLUS      &kp MINUS     &kp SLASH    &trans        &trans  &trans  &trans  &trans
                                             &trans        &trans       &trans        &trans
             >;
