@@ -143,7 +143,7 @@
         fn {
             bindings = <
   &none  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LG(LEFT_BRACE)  &kp LG(RIGHT_BRACE)    &kp N0    &kp LA(LEFT)      &kp LA(RIGHT)  &kp LG(LS(J))  &trans
-  &none  &kp C_VOLUME_UP       &kp C_PAUSE            &kp C_VOLUME_UP     &kp LG(LEFT)           &kp RGUI  &kp TAB           &kp LS(TAB)    &caps_word     &none
+  &none  &kp C_VOLUME_UP       &kp C_PAUSE            &kp C_VOLUME_DOWN   &kp LG(LEFT)           &kp RGUI  &kp TAB           &kp LS(TAB)    &caps_word     &none
   &none  &none                 &none                  &none               &kp LG(RIGHT)          &trans    &kp LS(NUMBER_4)  &trans         &trans         &trans
                                                       &kp LS(ENTER)       &kp NUMBER_0           &trans    &trans
             >;
