@@ -86,10 +86,10 @@ layers:
   - PAUSE
   - $$mdi:volume-high$$
   - Gui+$$mdi:arrow-left-bold$$
-  - RGUI
+  - $$mdi:alpha-w-box$$
   - $$mdi:keyboard-tab$$
   - $$mdi:keyboard-tab-reverse$$
-  - $$mdi:alpha-w-box$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
