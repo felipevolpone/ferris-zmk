@@ -464,6 +464,21 @@ rect.held, rect.combo.held {
 <text x="168" y="147" class="combo tap">V</text>
 <use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="160" y="143" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
 </g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="490" y="88" width="28" height="26" class="combo"/>
+<text x="504" y="101" class="combo tap">
+<tspan x="504" dy="-0.6em" style="font-size: 67%">Sft+</tspan><tspan x="504" dy="1.2em" style="font-size: 67%">Alt+Gui+S</tspan>
+</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="546" y="22" width="28" height="26" class="combo"/>
+<text x="560" y="35" class="combo tap">/</text>
+<text x="560" y="24" class="combo shifted">?</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="602" y="23" width="28" height="26" class="combo"/>
+<text x="616" y="36" class="combo tap"><tspan style="font-size: 60%">&amp;tmux_new…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 342)" class="layer-nav">
@@ -655,6 +670,21 @@ rect.held, rect.combo.held {
 <text x="168" y="147" class="combo tap">V</text>
 <use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="160" y="143" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
 </g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="490" y="88" width="28" height="26" class="combo"/>
+<text x="504" y="101" class="combo tap">
+<tspan x="504" dy="-0.6em" style="font-size: 67%">Sft+</tspan><tspan x="504" dy="1.2em" style="font-size: 67%">Alt+Gui+S</tspan>
+</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="546" y="22" width="28" height="26" class="combo"/>
+<text x="560" y="35" class="combo tap">/</text>
+<text x="560" y="24" class="combo shifted">?</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="602" y="23" width="28" height="26" class="combo"/>
+<text x="616" y="36" class="combo tap"><tspan style="font-size: 60%">&amp;tmux_new…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 684)" class="layer-fn">
@@ -845,6 +875,21 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="154" y="134" width="28" height="26" class="combo"/>
 <text x="168" y="147" class="combo tap">V</text>
 <use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="160" y="143" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="490" y="88" width="28" height="26" class="combo"/>
+<text x="504" y="101" class="combo tap">
+<tspan x="504" dy="-0.6em" style="font-size: 67%">Sft+</tspan><tspan x="504" dy="1.2em" style="font-size: 67%">Alt+Gui+S</tspan>
+</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="546" y="22" width="28" height="26" class="combo"/>
+<text x="560" y="35" class="combo tap">/</text>
+<text x="560" y="24" class="combo shifted">?</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="602" y="23" width="28" height="26" class="combo"/>
+<text x="616" y="36" class="combo tap"><tspan style="font-size: 60%">&amp;tmux_new…</tspan></text>
 </g>
 </g>
 </g>
@@ -1040,6 +1085,21 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="154" y="134" width="28" height="26" class="combo"/>
 <text x="168" y="147" class="combo tap">V</text>
 <use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="160" y="143" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="490" y="88" width="28" height="26" class="combo"/>
+<text x="504" y="101" class="combo tap">
+<tspan x="504" dy="-0.6em" style="font-size: 67%">Sft+</tspan><tspan x="504" dy="1.2em" style="font-size: 67%">Alt+Gui+S</tspan>
+</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="546" y="22" width="28" height="26" class="combo"/>
+<text x="560" y="35" class="combo tap">/</text>
+<text x="560" y="24" class="combo shifted">?</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="602" y="23" width="28" height="26" class="combo"/>
+<text x="616" y="36" class="combo tap"><tspan style="font-size: 60%">&amp;tmux_new…</tspan></text>
 </g>
 </g>
 </g>
