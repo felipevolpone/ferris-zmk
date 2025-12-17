@@ -96,6 +96,13 @@
             bindings = <&kp PIPE &kp PIPE &kp LEFT>;
             label = "RS_LAMBDA_MACRO";
         };
+
+        tmux_new_tab: tmux_new_tab {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(A) &kp T>;
+            label = "TMUX_NEW_TAB";
+        };
     };
 
     combos {
@@ -115,6 +122,21 @@
         paste {
             bindings = <&kp LG(V)>;
             key-positions = <22 23>;
+        };
+
+        shortcat {
+            bindings = <&kp LS(LA(LG(S)))>;
+            key-positions = <15 16>;
+        };
+
+        search {
+            bindings = <&kp SLASH>;
+            key-positions = <6 7>;
+        };
+
+        newtab {
+            bindings = <&tmux_new_tab>;
+            key-positions = <7 8>;
         };
     };
 
