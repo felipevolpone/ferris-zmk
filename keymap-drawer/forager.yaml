@@ -154,3 +154,7 @@ combos:
   k: {t: /, s: '?'}
 - p: [7, 8]
   k: '&tmux_new_tab'
+- p: [16, 17]
+  k: '&prev_tmux'
+- p: [17, 18]
+  k: '&next_tmux'
