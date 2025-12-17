@@ -107,6 +107,20 @@
             bindings = <&kp LC(A) &kp T>;
             label = "TMUX_NEW_TAB";
         };
+
+        next_tmux: next_tmux {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(A) &kp N>;
+            label = "NEXT_TMUX";
+        };
+
+        prev_tmux: prev_tmux {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(A) &kp H>;
+            label = "PREV_TMUX";
+        };
     };
 
     combos {
@@ -145,6 +159,16 @@
             key-positions = <7 8>;
             timeout-ms = <18>;
             require-prior-idle-ms = <150>;
+        };
+
+        prev_tmux {
+            bindings = <&prev_tmux>;
+            key-positions = <16 17>;
+        };
+
+        next_tmux {
+            bindings = <&next_tmux>;
+            key-positions = <17 18>;
         };
     };
 
