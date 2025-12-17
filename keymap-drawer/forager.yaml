@@ -82,9 +82,9 @@ layers:
   - Gui+Sft+J
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:volume-high$$
-  - PAUSE
   - $$mdi:volume-low$$
+  - PAUSE
+  - $$mdi:volume-high$$
   - Gui+$$mdi:arrow-left-bold$$
   - RGUI
   - $$mdi:keyboard-tab$$
