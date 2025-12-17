@@ -10,17 +10,17 @@ layers:
   - U
   - I
   - O
-  - P
-  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: P, h: funtions-btns-sys}
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
   - H
-  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
+  - {t: ;, h: '$$mdi:apple-keyboard-command$$', s: ':'}
   - Z
   - X
   - C
@@ -30,78 +30,78 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, h: Sft+/, s: '?'}
-  - {t: '$$mdi:backspace$$', h: arrows+braces}
-  - {t: '$$mdi:keyboard-esc$$', h: 'Meh+$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:keyboard-return$$', h: 'Sft+Alt+$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:keyboard-space$$', h: numbers+symbols}
-  arrows+braces:
-  - {t: \, s: '|'}
-  - '#'
-  - '"'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '[', s: '{'}
-  - (
+  - {t: '?', h: RGUI}
+  - {t: '$$mdi:keyboard-space$$', h: nav}
+  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:keyboard-return$$', h: numbers}
+  - {t: '$$mdi:backspace$$', h: fn}
+  nav:
+  - {t: '`', s: '~'}
+  - {t: '-', s: _}
   - '{'
-  - {t: ']', s: '}'}
-  - {t: \, s: '|'}
-  - {t: '!', h: '$$mdi:apple-keyboard-control$$'}
-  - $$mdi:apple-keyboard-option$$
-  - LGUI
-  - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '}'
+  - '!'
+  - '*'
+  - $
+  - '%'
+  - {t: '''', s: '"'}
+  - '"'
+  - '|'
+  - +
+  - (
+  - )
+  - '@'
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - <
-  - ^
-  - $
-  - '@'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '|'
+  - '~'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - _
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - '#'
   - ':'
-  - <
-  - '>'
-  - {t: '`', s: '~'}
+  - {t: '=', s: +}
+  - '&'
+  - {t: \, s: '|'}
+  - ^
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: 'Alt+$$mdi:backspace$$', type: backspace}
   - '"'
-  numbers+symbols:
-  - +
-  - {t: '-', s: _}
-  - {t: '=', s: +}
-  - _
-  - '*'
+  fn:
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: 'Gui+[', s: 'Gui+{'}
+  - {t: 'Gui+]', s: 'Gui+}'}
+  - Gui+{
+  - Gui+}
+  - {t: '0', s: )}
+  - Alt+$$mdi:arrow-left-bold$$
+  - Alt+$$mdi:arrow-right-bold$$
+  - Gui+Sft+J
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:volume-high$$
+  - PAUSE
+  - $$mdi:volume-high$$
+  - Gui+$$mdi:arrow-left-bold$$
+  - RGUI
+  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-tab-reverse$$
+  - $$mdi:alpha-w-box$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Gui+$$mdi:arrow-right-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+4
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '%'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '1', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '2', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '3', h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '4', h: '$$mdi:apple-keyboard-shift$$'}
-  - '5'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '[', h: '$$mdi:apple-keyboard-shift$$', s: '{'}
-  - {t: ']', h: '$$mdi:apple-keyboard-command$$', s: '}'}
-  - {t: '&', h: '$$mdi:apple-keyboard-option$$'}
-  - $$mdi:apple-keyboard-control$$
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '!'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: 'Sft+$$mdi:keyboard-return$$', type: enter}
   - '0'
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
@@ -115,7 +115,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:bluetooth-off$$
+  - {t: '$$mdi:bluetooth-off$$', type: held}
   - F1
   - F2
   - F3
@@ -132,9 +132,9 @@ layers:
   - F9
   - {t: '$$mdi:transfer$$', type: trans}
   - LOCK
-  - {type: held}
-  - {type: held}
-  - {type: held}
+  - {type: held alternate}
+  - {type: held alternate}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - F10
@@ -210,16 +210,51 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&studio_unlock'
+  numbers:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - {t: '5', s: '%'}
+  - '6'
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '*'
+  - +
+  - {t: '-', s: _}
+  - {t: /, s: '?'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [6, 7]
   k: )
-  l: [arrows+braces]
+  l: [nav]
 - p: [7, 8]
   k: '}'
-  l: [arrows+braces]
+  l: [nav]
 - p: [5, 6]
   k: {t: ']', s: '}'}
-  l: [arrows+braces]
+  l: [nav]
 - p: [27, 26, 28]
   k: {t: 'Gui+$$mdi:keyboard-space$$', h: funtions-btns-sys}
   l: [DEF]
@@ -231,16 +266,16 @@ combos:
   l: [DEF]
 - p: [1, 2]
   k: '&thin_arrow'
-  l: [numbers+symbols]
+  l: [fn]
 - p: [2, 3]
   k: '&thick_arrow'
-  l: [numbers+symbols]
+  l: [fn]
 - p: [6, 7]
   k: $$mdi:keyboard-tab$$
   l: [DEF]
 - p: [25, 26]
   k: '&rs_lambda_macro'
-  l: [arrows+braces]
+  l: [nav]
 - p: [16, 17, 18]
   k: Hyper+$$mdi:keyboard-space$$
   l: [DEF]
