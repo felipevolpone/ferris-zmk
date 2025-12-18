@@ -32,7 +32,7 @@ layers:
   - {t: ., s: '>'}
   - {t: '?', h: RGUI}
   - {t: '$$mdi:keyboard-space$$', h: nav}
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-esc$$', h: fn}
   - {t: '$$mdi:keyboard-return$$', h: numbers}
   - {t: '$$mdi:backspace$$', h: fn}
   nav:
@@ -102,9 +102,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: 'Sft+$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {type: held}
+  - {type: held alternate}
   numbers:
   - '1'
   - '2'
